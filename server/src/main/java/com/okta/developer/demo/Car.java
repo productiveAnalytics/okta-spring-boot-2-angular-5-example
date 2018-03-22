@@ -13,4 +13,8 @@ public class Car {
     
     public String getName() {return this.name;}
     public void setName(String n) {this.name = n;}
+	
+	public String toString(){
+		return "{\"id\":\""+ this.id + "\", \"name\":\""+ this.name +"\"}";
+	}
 }
