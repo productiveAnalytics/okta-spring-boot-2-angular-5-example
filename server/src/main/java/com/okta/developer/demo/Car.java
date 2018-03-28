@@ -15,6 +15,6 @@ public class Car {
     public void setName(String n) {this.name = n;}
 	
 	public String toString(){
-		return "{\"id\":\""+ this.id + "\", \"name\":\""+ this.name +"\"}";
+		return "Car={\"id\":\""+ this.id + "\", \"name\":\""+ this.name +"\"}";
 	}
 }
